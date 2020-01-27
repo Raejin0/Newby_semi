@@ -5,133 +5,34 @@
 <head>
 	<meta charset="UTF-8">
     <title>동적 액티비티</title>
-    <link rel="stylesheet" href="resources/css/jquery-ui.css">
-    <link rel="stylesheet" href="resources/css/category_sh.css">
-    <script src="resources/js/jquery-1.12.4.js"></script>
-    <script src="resources/js/jquery-ui.js"></script>
+    <link rel="stylesheet" href="../resources/css/jquery-ui.css">
+    <link rel="stylesheet" href="../resources/css/category_sh.css">
+    <script src="../resources/js/jquery-1.12.4.js"></script>
+    <script src="../resources/js/jquery-ui.js"></script>
+    <script src="../resources/js/category-sh.js"></script>
 </head>
 <body>
-    <!-- script -->
-    <script>
-        $(function(){
-         $('#caBtn2').css('background','rgba(0, 129, 250, 0.33)');   
-         $('.cate').on({
-             'mouseenter':function(){
-                 $(this).css('background','rgba(0, 129, 250, 0.33)');
-             },'mouseleave' : function(){
-                 $(this).css('background','rgba(0, 129, 250, 0.137)');   
-             },'click' :function(){
-                 $('.cate').removeAttr('style');
-                 $(this).off('mouseenter').off('mouseleave').css({
-                     'background':'rgba(0, 129, 250, 0.33)',
-                     })
-                     }
-         });
-        });
-
-
-        function shmenuView1(val){
-         $('cate_sub').show();
-         var va = val;
-         str = '#sub'+val;
-         menu = "#menu"+val;
-     
-         $('.cates').hide();
-         $(str).show();
-         };
-
-
-        // 슬라이드 바
-        $( function() {
-        $( "#slider-range" ).slider({
-            range: true,
-            min: 1000,
-            max: 300000,
-            values: [ 5000 , 250000],
-            slide: function( event, ui ) {
-            $( "#amount" ).val( ui.values[ 0 ] + "원 - " + ui.values[ 1 ]+"원" );
-            }
-        });
-        $( "#amount" ).val($( "#slider-range" ).slider( "values", 0 ) +
-            "원 - " + $( "#slider-range" ).slider( "values", 1 )+"원" );
-        } );
-
-        //메인 클래스 마우스 온
-        $(function(){
-         $('.cate_tt_sh').on({
-             'mouseenter':function(){
-                 $(this).css('font-weight','600');
-             },'mouseleave' : function(){
-                 $(this).removeAttr('style');  
-             }
-         });
-         });
-
-
-        // 슬라이드 업
-        $(function(){
-            //초기 상태 설정
-            $('.category_form').hide();
-            $('#cate6check').on("click",function(){
-                $('.category_form').slideToggle(100);
-                console.log("슬라이드 토글 확인");
-            });
-        });
-
-        // 카테고리 선택 토글
-
-        $(function(){ 
-            $(".main_sub_caca li:has(a)").on("click",function(){
-                $(this).toggleClass("high_light_4");
-            });
-        });
-
-
-        $(function(){
-            $('#pglk_sh').hide();
-            $('#mbtn_sh').on({
-                'mouseenter':function(){
-                 $('#mbtn_sh').css('background','lightgray');
-                },'mouseleave' : function(){
-                 $(this).removeAttr('style');  
-             },'click' : function(){
-                 $('#mbtn_sh').slideUp();
-                 $('#pglk_sh').show(); 
-             }
-
-        });
-        });
-
-
-
-            
-        
-        
-     </script>
-
-
-
     <!-- Head Navigation -->
     <div style="height: 5px;"></div>
     <div class="top" style="z-index: 99;">
         <label id="logo">
-            <a href="NewbyMainpage.html"><img src="resources/logo2(288x106).png" alt="로고" height="60px" id="newby-logo" ></a>
+            <a href="NewbyMainpage.jsp"><img src="../resources/css/logo2(288x106).png" alt="로고" height="60px" id="newby-logo" ></a>
         </label>
 
         <label id="login" class="top-nav">
             로그인 |
         </label>
         <label id="signIn" class="top-nav">
-            <a href="SignIn.html">회원가입 |</a>
+            <a href="SignIn.jsp">회원가입 |</a>
         </label>&nbsp;&nbsp;&nbsp;
         <label id="toHost" class="top-nav">
-            <a href="Host_SignIn.html">호스트신청 |</a>
+            <a href="Host_SignIn.jsp">호스트신청 |</a>
         </label>&nbsp;&nbsp;&nbsp;
         <label id="customer" class="top-nav">
-            <a href="Inquiry.html">고객센터 |</a>
+            <a href="Inquiry.jsp">고객센터 |</a>
         </label>&nbsp;&nbsp;&nbsp;
         <label id="myPage" class="top-nav">
-            <a href="AccountPage.html">마이페이지 |</a>
+            <a href="AccountPage.jsp">마이페이지 |</a>
         </label>
     </div>
 
@@ -144,7 +45,7 @@
             <div class="cate_list">
                 <ul id="shcaul1">
                     <li class="cate_tt_sh"  id="title0">
-                        <a href="category0_dynamic.html">
+                        <a href="category0_dynamic.jsp">
                                 <div id="cate0" style="font-weight: 600;"><div class="tt_circle" id="ttc0"></div>동적 액티비티</div>
                         </a>
                     </li>
@@ -154,7 +55,7 @@
                         </a>
                     </li>
                     <li class="cate_tt_sh"  id="title1">
-                        <a href="category1_static.html">
+                        <a href="category1_static.jsp">
                             <div id="cate1"><div class="tt_circle" id="ttc1" style="visibility: hidden;"></div>정적 액티비티</div>
                         </a>
                     </li>
@@ -169,7 +70,7 @@
                     <hr>
                     <br>
                     <li class="cate_tt_sh"  id="title2">
-                        <a href="category2_activity.html">
+                        <a href="category2_activity.jsp">
                             <div id="cate2" ><div class="tt_circle" id="ttc2" style="visibility: hidden;"></div>액티비티</div>
                         </a>
                     </li>
@@ -179,7 +80,7 @@
                         </a>
                     </li>
                     <li class="cate_tt_sh"  id="title3">
-                        <a href="category3_coocking.html">
+                        <a href="category3_coocking.jsp">
                             <div id="cate3" ><div class="tt_circle" id="ttc3"style="visibility: hidden;" ></div>쿠킹</div>
                         </a>
                     </li>
@@ -189,7 +90,7 @@
                         </a>
                     </li>
                     <li class="cate_tt_sh"  id="title4">
-                        <a href="category4_art.html">
+                        <a href="category4_art.jsp">
                             <div id="cate4"><div class="tt_circle" id="ttc4"style="visibility: hidden;"></div>예술</div>
                         </a>
                     </li>
@@ -199,7 +100,7 @@
                         </a>
                     </li>
                     <li class="cate_tt_sh"  id="title5">
-                        <a href="category5_study.html">
+                        <a href="category5_study.jsp">
                             <div id="cate5"><div class="tt_circle" id="ttc5" style="visibility: hidden;"></div>교육</div>
                         </a>
                     </li>
