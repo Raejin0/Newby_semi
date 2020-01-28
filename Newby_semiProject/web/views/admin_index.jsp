@@ -34,7 +34,7 @@
         <a href="admin_classApply.jsp">클래스</a>
         <a href="admin_hostReport.jsp">호스트 신고</a>
         <a href="admin_accountancy.jsp">정산</a>
-    </div>
+    </div> 
 
     <div class="content">
 
