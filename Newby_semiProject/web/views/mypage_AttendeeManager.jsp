@@ -6,15 +6,15 @@
     <meta charset="UTF-8">
     <title>AttendeeManager</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./resources/css/joinModal.css">
-    <link rel="stylesheet" href="./resources/css/LoginModal.css">
-    <link rel="stylesheet" href="./resources/css/main-atag.css">
-    <link rel="stylesheet" href="./resources/css/main-footer.css">
-    <link rel="stylesheet" href="./resources/css/main-headervar.css">
-    <link rel="stylesheet" href="./resources/css/main-navibar.css">
-    <link rel="stylesheet" href="./resources/css/main-panel.css">
-    <link rel="stylesheet" href="./resources/css/mypage_h&j-frame.css">
-    <link rel="stylesheet" href="./resources/css/mypage_AttendeeManager.css">
+    <link rel="stylesheet" href="/semi/semi/resources/css/joinModal.css">
+    <link rel="stylesheet" href="/semi/resources/css/LoginModal.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-atag.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-footer.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-headervar.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-navibar.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-panel.css">
+    <link rel="stylesheet" href="/semi/resources/css/mypage_h&j-frame.css">
+    <link rel="stylesheet" href="/semi/resources/css/mypage_AttendeeManager.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+GothicNoto+Sans+KR&display=swap" rel="stylesheet">
     <script src="./resources/jquery/jquery-3.4.1.min.js"></script>
     <script src="../MainPage/js/mainPage.js"></script>
@@ -24,7 +24,7 @@
     <div id="Allpanel">
         <center>
             <div class="newby-header" id="newby-header-var">
-                <img src="./resources/images/Logo(120x50px).png" alt="로고"  height="50px" id="newby-logo" style="margin-right: 500px;" onclick="newbyMain();">
+                <img src="/semi/resources/images/Logo(120x50px).png" alt="로고"  height="50px" id="newby-logo" style="margin-right: 500px;" onclick="newbyMain();">
                 <label id="login" class="top-nav">
                     <a>로그인 |</a>
                 </label>
@@ -136,6 +136,7 @@
                     </div>
                 </div> 
             </div>
+            <script type="text/javascript" src="/semi/resources/js/mypage_AttendeeManager.js"></script>
         </center>
         <center>
             <div id="newby-footer">
@@ -144,31 +145,5 @@
         </center>
     </div>
 
-    <script>
-        var dropdown = document.getElementsByClassName("dropdown-btnqo");
-        var i;
-  
-        for (i = 0; i < dropdown.length; i++) {
-            dropdown[i].addEventListener("click", function() {
-            this.classList.toggle("activeCl");
-            var dropdownContent = this.nextElementSibling;
-            if (dropdownContent.style.display === "block") {
-            dropdownContent.style.display = "none";
-            } else {
-            dropdownContent.style.display = "block";
-            }
-            });
-        }
-
-        $('#table1 tr').click(function(){
-            var tdArr = new Array();
-            var tr = $(this);
-            var td = tr.children();
-            td.each(function(i){
-            tdArr.push(td.eq(i).text());
-            });
-            window.open('AttendeeAttendanceManager.html','_blank','width=500, height=750, left=500, top=300, screenX=1000, screenY=500, scrollbar=no');
-        });
-    </script>
 </body>
 </html>
