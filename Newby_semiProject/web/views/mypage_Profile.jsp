@@ -81,7 +81,7 @@
                         <form>
                             <table align="center">
                               <tr>
-                                <td class="tline1 ttxtt1">닉네임 </td>
+                                <td class="tline1 ttxtt1">닉네임slkdjaldjalsk </td>
                                 <td class="tline2 ttxtt1"><input id="nickname1sdkl" name="name" placeholder="입력" value="prius"></td>
                                 <td><input class="modibtn1cw" type="button" value="수정하기"></td>
                                   </tr>
