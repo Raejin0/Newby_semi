@@ -21,29 +21,7 @@
 
 <body>
     <div id="Allpanel">
-        <center>
-            <div class="newby-header" id="newby-header-var">
-                <img src="./resources/images/Logo(120x50px).png" alt="로고"  height="50px" id="newby-logo" style="margin-right: 500px;" onclick="newbyMain();">
-                <label id="login" class="top-nav">
-                    <a>로그인 |</a>
-                </label>
-                <label id="signIn" class="top-nav">
-                    <a>회원가입 |</a>
-                </label>
-                <label id="toHost" class="top-nav">
-                    <a href="Host_SignIn.html">호스트신청 |</a>
-                </label>
-                <label id="customer" class="top-nav">
-                    <a href="Notice.html">고객센터 |</a>
-                </label>
-                <label id="myPage" class="top-nav">
-                    <a href="./MyPage/Profile.html">마이페이지 |</a>
-                </label>
-                <label id="AdminPage" class="top-nav">
-                    <a href="./newbyAdmin/admin.html">관리자페이지 |</a>
-                </label>
-            </div>
-        </center>
+        <%@ include file="./common/header.jsp" %>
         <center>
             <!-- 작업하는 컨텐츠 -->
             <div id="newby-body-panel" class="contents-div123" align="left" >
@@ -174,11 +152,7 @@
             </div>
             <script type="text/javascript" src="/semi/resources/js/mypage_Profile.js"></script>
         </center>
-        <center>
-            <div id="newby-footer">
-                <p id="newby-copyright">Copyright &copy; Your Website 2020</p>
-              </div>
-        </center>
+        <%@ include file="./common/footer.jsp" %>
     </div>
    
 </body>
