@@ -6,23 +6,25 @@
     <meta charset="UTF-8">
     <title>Review</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./resources/css/joinModal.css">
-    <link rel="stylesheet" href="./resources/css/LoginModal.css">
-    <link rel="stylesheet" href="./resources/css/main-atag.css">
-    <link rel="stylesheet" href="./resources/css/main-footer.css">
-    <link rel="stylesheet" href="./resources/css/main-headervar.css">
-    <link rel="stylesheet" href="./resources/css/main-navibar.css">
-    <link rel="stylesheet" href="./resources/css/main-panel.css">
-    <link rel="stylesheet" href="./resources/css/mypage_h&j-frame.css">
-    <link rel="stylesheet" href="./resources/css/mypage_WritingReview.css">
+    <link rel="stylesheet" href="/semi/resources/css/joinModal.css">
+    <link rel="stylesheet" href="/semi/resources/css/LoginModal.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-atag.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-footer.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-headervar.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-navibar.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-panel.css">
+    <link rel="stylesheet" href="/semi/resources/css/mypage_h&j-frame.css">
+    <link rel="stylesheet" href="/semi/resources/css/mypage_WritingReview.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+GothicNoto+Sans+KR&display=swap" rel="stylesheet">
-    <script src="./resources/jquery/jquery-3.4.1.min.js"></script>
+    <script src="/semi/resources/jquery/jquery-3.4.1.min.js"></script>
 
 </head>
 
 <body>
     <div id="Allpanel">
+    
         <%@ include file="./common/header.jsp" %>
+        
         <center>
             <!-- 작업하는 컨텐츠 -->
             <div id="newby-body-panel" class="contents-div123" align="left">
@@ -47,19 +49,13 @@
 
                 <!--contents-->
                 <div id="mn16s" align="center">
-
                     <br>
-                    <h2>후기 작성</h2>      <!-- 제목란이니깐 해당 제목 작성해서 하면 돼-->
+                    <h2>후기 작성</h2>
                     <br>
                     <hr id="hrSet53">
                     <br>
                     <br>
-
-
-                    <div id="contentsDivSize29">       <!-- 여기다가 너가 작업한거 넣으면 돼-->
-                        
-
-
+                    <div id="contentsDivSize29">
                         <div class="container">
                             <table class="table table-striped">
                                 <thead align="center">
@@ -122,8 +118,6 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        
-                              
                             <div>
                                 <ul class="pagination" style="float: right;">
                                     <li class="page-item"><a class="page-link" href="#" style="color: #0981F1;">Previous</a></li>
@@ -134,16 +128,16 @@
                                 </ul>
                             </div>
                           </div>
-
-
-
-
                     </div>
                 </div> 
             </div>
+            
             <script type="text/javascript" src="/semi/resources/js/mypage_WritingReview1.js"></script>
+            
         </center>
+        
         <%@ include file="./common/footer.jsp" %>
+        
     </div>
 </body>
 </html>

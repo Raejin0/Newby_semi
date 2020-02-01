@@ -6,26 +6,28 @@
     <meta charset="UTF-8">
     <title>Profile</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/Mypage/views/resources/css/joinModal.css">
-    <link rel="stylesheet" href="/Mypage/views/resources/css/LoginModal.css">
-    <link rel="stylesheet" href="/Mypage/views/resources/css/main-atag.css">
-    <link rel="stylesheet" href="/Mypage/views/resources/css/main-footer.css">
-    <link rel="stylesheet" href="/Mypage/views/resources/css/main-headervar.css">
-    <link rel="stylesheet" href="/Mypage/views/resources/css/main-navibar.css">
-    <link rel="stylesheet" href="/Mypage/views/resources/css/main-panel.css">
-    <link rel="stylesheet" href="/Mypage/views/resources/css/mypage_h&j-frame.css">
-    <link rel="stylesheet" href="/Mypage/views/resources/css/mypage_Profile.css">
+    <link rel="stylesheet" href="/semi/resources/css/joinModal.css">
+    <link rel="stylesheet" href="/semi/resources/css/LoginModal.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-atag.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-footer.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-headervar.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-navibar.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-panel.css">
+    <link rel="stylesheet" href="/semi/resources/css/mypage_h&j-frame.css">
+    <link rel="stylesheet" href="/semi/resources/css/mypage_Profile.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+GothicNoto+Sans+KR&display=swap" rel="stylesheet">
-    <script src="/Mypage/views/resources/jquery/jquery-3.4.1.min.js"></script>
+    <script src="/semi/views/resources/jquery/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
     <div id="Allpanel">
+    
         <%@ include file="./common/header.jsp" %>
+        
         <center>
             <!-- 작업하는 컨텐츠 -->
             <div id="newby-body-panel" class="contents-div123" align="left" >
-
+            
                 <!--left sidebar-->
                 <div class="sidenavsk">
                   <div id="sidebar-titleso67" align="center">마이페이지</div>
@@ -46,20 +48,17 @@
 
                 <!--contents-->
                 <div id="mn16s" align="center">
-
                     <br>
-                    <h2>프로필</h2>      <!-- 제목란이니깐 해당 제목 작성해서 하면 돼-->
+                    <h2>프로필</h2>
                     <br>
                     <hr id="hrSet53">
                     <br>
                     <br>
-
-
-                    <div>       <!-- 여기다가 너가 작업한거 넣으면 돼-->
+                    <div>
                         <form>
                             <table align="center">
                               <tr>
-                                <td class="tline1 ttxtt1">닉네임slkdjaldjalsk </td>
+                                <td class="tline1 ttxtt1">닉네임</td>
                                 <td class="tline2 ttxtt1"><input id="nickname1sdkl" name="name" placeholder="입력" value="prius"></td>
                                 <td><input class="modibtn1cw" type="button" value="수정하기"></td>
                                   </tr>
@@ -144,16 +143,17 @@
                                   <td colspan="2"><input type="checkbox"><small style="color: rgb(155,155,155);"> 다양한 이벤트, 할인, 상품 정보 메일을 받겠습니다.</small></td>
                                 </tr>
                             </table>
-                        </form>                        
-
-                          
+                        </form>
                     </div>
                 </div> 
             </div>
+            
             <script type="text/javascript" src="/semi/resources/js/mypage_Profile.js"></script>
+            
         </center>
+        
         <%@ include file="./common/footer.jsp" %>
+        
     </div>
-   
 </body>
 </html>

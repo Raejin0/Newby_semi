@@ -6,15 +6,15 @@
     <meta charset="UTF-8">
     <title>ModifyClass</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./resources/css/joinModal.css">
-    <link rel="stylesheet" href="./resources/css/LoginModal.css">
-    <link rel="stylesheet" href="./resources/css/main-atag.css">
-    <link rel="stylesheet" href="./resources/css/main-footer.css">
-    <link rel="stylesheet" href="./resources/css/main-headervar.css">
-    <link rel="stylesheet" href="./resources/css/main-navibar.css">
-    <link rel="stylesheet" href="./resources/css/main-panel.css">
-    <link rel="stylesheet" href="./resources/css/mypage_h&j-frame.css">
-    <link rel="stylesheet" href="./resources/css/mypage_EnrollInClass.css">
+    <link rel="stylesheet" href="/semi/resources/css/joinModal.css">
+    <link rel="stylesheet" href="/semi/resources/css/LoginModal.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-atag.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-footer.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-headervar.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-navibar.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-panel.css">
+    <link rel="stylesheet" href="/semi/resources/css/mypage_h&j-frame.css">
+    <link rel="stylesheet" href="/semi/resources/css/mypage_EnrollInClass.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+GothicNoto+Sans+KR&display=swap" rel="stylesheet">
 
 
@@ -27,17 +27,13 @@
             <div id="newby-body-panel" class="contents-div123" align="left">
                 <!--contents-->
                 <div id="mn16s" align="center">
-
                     <br>
-                    <h2>클래스 수정</h2>      <!-- 제목란이니깐 해당 제목 작성해서 하면 돼-->
+                    <h2>클래스 수정</h2>
                     <br>
                     <hr id="hrSet53">
                     <br>
                     <br>
-
-
-                    <div id="contentsDivSize29">       <!-- 여기다가 너가 작업한거 넣으면 돼-->
-
+                    <div id="contentsDivSize29">
                         <form action="">
                             <table>
                                 <tbody>
@@ -203,15 +199,11 @@
                             <input type="submit" class="finalBtn24" value="수정"">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <br><br><br><br><br>
-
                         </form>
                     </div>
                 </div> 
             </div>
         </center>
-
     </div>
-
-
 </body>
 </html>

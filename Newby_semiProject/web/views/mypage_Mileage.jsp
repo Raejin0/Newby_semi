@@ -6,15 +6,15 @@
     <meta charset="UTF-8">
     <title>Mileage</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./resources/css/joinModal.css">
-    <link rel="stylesheet" href="./resources/css/LoginModal.css">
-    <link rel="stylesheet" href="./resources/css/main-atag.css">
-    <link rel="stylesheet" href="./resources/css/main-footer.css">
-    <link rel="stylesheet" href="./resources/css/main-headervar.css">
-    <link rel="stylesheet" href="./resources/css/main-navibar.css">
-    <link rel="stylesheet" href="./resources/css/main-panel.css">
-    <link rel="stylesheet" href="./resources/css/mypage_h&j-frame.css">
-    <link rel="stylesheet" href="./resources/css/mypage_Mileage.css">
+    <link rel="stylesheet" href="/semi/resources/css/joinModal.css">
+    <link rel="stylesheet" href="/semi/resources/css/LoginModal.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-atag.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-footer.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-headervar.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-navibar.css">
+    <link rel="stylesheet" href="/semi/resources/css/main-panel.css">
+    <link rel="stylesheet" href="/semi/resources/css/mypage_h&j-frame.css">
+    <link rel="stylesheet" href="/semi/resources/css/mypage_Mileage.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+GothicNoto+Sans+KR&display=swap" rel="stylesheet">
     <script src="../MainPage/js/mainPage.js"></script>
 
@@ -47,20 +47,13 @@
 
                 <!--contents-->
                 <div id="mn16s" align="center">
-
                     <br>
-                    <h2>마일리지</h2>      <!-- 제목란이니깐 해당 제목 작성해서 하면 돼-->
+                    <h2>마일리지</h2>
                     <br>
                     <hr id="hrSet53">
                     <br>
                     <br>
-
-
-                    <div id="contentsDivSize29">       <!-- 여기다가 너가 작업한거 넣으면 돼-->
-
-
-
-                        
+                    <div id="contentsDivSize29">
                         <div>
                             <div align="center" id="miletitle1sdk">현재 마일리지</div>
                             <div align="center">
@@ -143,14 +136,16 @@
                               </ul>
                             </div>
                           </div>
-
-
                     </div>
                 </div> 
             </div>
+            
             <script type="text/javascript" src="/semi/resources/js/mypage_Mileage.js"></script>
+            
         </center>
+        
         <%@ include file="./common/footer.jsp" %>
+        
     </div>
 </body>
 </html>
