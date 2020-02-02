@@ -20,11 +20,10 @@
 </head>
 
 <body>
-    <div id="Allpanel">
+    <div id="Allpanel" align="center">
     
         <%@ include file="./common/header.jsp" %>
-        
-        <center>
+
             <!-- 작업하는 컨텐츠 -->
             <div id="newby-body-panel" class="contents-div123" align="left" >
             
@@ -67,7 +66,7 @@
                                 </tr>
                                 <tr>
                                     <td class="tline1 ttxtt1">이름</td>
-                                    <td class="tline2 ttxtt1"><div class="modiX14" disabled>남지훈</div></td class="tline2">
+                                    <td class="tline2 ttxtt1"><div class="modiX14" disabled>남지훈</div></td>
                                 </tr>
                                 <tr>
                                   <td><br></td>
@@ -81,14 +80,14 @@
                                 </tr>
                                 <tr>
                                     <td class="tline1 ttxtt1">성별</td>
-                                    <td class="tline2 ttxtt1"><div class="modiX14" disabled>남자</div></td class="tline2">
+                                    <td class="tline2 ttxtt1"><div class="modiX14" disabled>남자</div></td>
                                 </tr>
                                 <tr>
                                   <td><br></td>
                                 </tr>
                                 <tr>
                                     <td class="tline1 ttxtt1">휴대폰 번호</td>
-                                    <td class="tline2 ttxtt1"><div  class="modiX14" disabled>010-8838-6688</div></td class="tline2">
+                                    <td class="tline2 ttxtt1"><div  class="modiX14" disabled>010-8838-6688</div></td>
                                     <td><input class="modibtn1cw" type="button" value="수정하기"></td>
                                   </tr>
                                   <tr>
@@ -149,9 +148,7 @@
             </div>
             
             <script type="text/javascript" src="/semi/resources/js/mypage_Profile.js"></script>
-            
-        </center>
-        
+       	<br>
         <%@ include file="./common/footer.jsp" %>
         
     </div>

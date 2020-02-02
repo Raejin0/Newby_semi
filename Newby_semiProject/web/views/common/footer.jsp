@@ -7,10 +7,8 @@
 <title>footer</title>
 </head>
 <body>
-	<center>
 		<div id="newby-footer">
 			<p id="newby-copyright">Copyright &copy; Your Website 2020</p>
 		</div>
-	</center>
 </body>
 </html>

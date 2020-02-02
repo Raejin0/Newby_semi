@@ -21,9 +21,10 @@
 </head>
 
 <body></body>
-    <div id="Allpanel">
+    <div id="Allpanel" align="center">
+    
         <%@ include file="./common/header.jsp" %>
-        <center>
+        
             <!-- 작업하는 컨텐츠 -->
             <div id="newby-body-panel" class="contents-div123" align="left">
 
@@ -141,8 +142,6 @@
             </div>
             
             <script type="text/javascript" src="/semi/resources/js/mypage_Mileage.js"></script>
-            
-        </center>
         
         <%@ include file="./common/footer.jsp" %>
         

@@ -7,7 +7,6 @@
     <title>header</title>
 </head>
 <body>
-        <center>
             <div class="newby-header" id="newby-header-var">
               <img src="/semi/resources/images/Logo(120x50px).png" alt="로고"  height="50px" id="newby-logo" style="margin-right: 500px;" onclick="newbyMain();">
                 <label id="login" class="top-nav">
@@ -29,7 +28,5 @@
                     <a href="./newbyAdmin/admin.html">관리자페이지 |</a>
                 </label>
             </div>
-        </center>
-
 </body>
 </html>
