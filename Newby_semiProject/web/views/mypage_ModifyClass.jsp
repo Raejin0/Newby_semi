@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="/semi/resources/css/joinModal.css">
     <link rel="stylesheet" href="/semi/resources/css/LoginModal.css">
-    <link rel="stylesheet" href="/semi/resources/css/main-atag.css">
-    <link rel="stylesheet" href="/semi/resources/css/main-footer.css">
-    <link rel="stylesheet" href="/semi/resources/css/main-headervar.css">
-    <link rel="stylesheet" href="/semi/resources/css/main-navibar.css">
     <link rel="stylesheet" href="/semi/resources/css/main-panel.css">
     <link rel="stylesheet" href="/semi/resources/css/mypage_h&j-frame.css">
     <link rel="stylesheet" href="/semi/resources/css/mypage_EnrollInClass.css">
