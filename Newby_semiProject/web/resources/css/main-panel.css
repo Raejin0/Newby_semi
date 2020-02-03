@@ -18,28 +18,16 @@ body{
     overflow-y: hidden;
 }
 
+
+
+
+/* header */
 #newby-header-var{
     background-color: white;
     width: 70%;
     height: 60px;
 }
 
-#newby-body-panel{
-    width: 70%;
-    min-height: 700px;
-    height: auto;
-    padding-left: 1px;
-    
-}        
-
-#newby-footer{
-    width: 70%;
-    height: 60px;
-}
-
-
-
-/*main-headervar*/
 .top-navigatorBar{ 
     /* width:60%; */
     height: 60px;
@@ -49,26 +37,24 @@ body{
     font-size: 13px;
 }
 
-
-
-
-
-/*main-navibar*/
 #newby-logo{
-    margin-top: 4px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
     margin-right: 40px
 }
 
+#header-navibar23{
+	width:100%;
+	
+}
+
 .top-nav{
-    margin-left: 20px;
-    vertical-align: middle;
-    margin-bottom: 10px;
-    display: table-cell;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 .newby-header{
-    display: table;
+    display: flex;
 }
 
  
@@ -76,3 +62,33 @@ body{
 .top-nav a:visited { color: darkgrey; text-decoration: none;}
 .top-nav a:hover { color: darkgrey; background-color: white;}
 .top-nav { color: darkgrey;}
+
+
+.divider1{
+	margin: 5px 4px 0 9px;
+    width: 1px;
+    height: 11px;
+    color : #ebeef3;
+}
+
+
+/* body */
+#newby-body-panel{
+    width: 70%;
+    min-height: 700px;
+    height: auto;
+    padding-left: 1px;
+}        
+
+
+
+
+/* footer */
+#newby-footer{
+    width: 70%;
+    height: 60px;
+}
+
+
+
+

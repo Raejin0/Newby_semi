@@ -43,6 +43,7 @@
 
                 <!--contents-->
                 <div id="mn16s" align="center">
+                	<br>
                     <br>
                     <h2>프로필</h2>
                     <br>

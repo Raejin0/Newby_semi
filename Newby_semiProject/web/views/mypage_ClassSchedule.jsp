@@ -46,6 +46,7 @@
                 <!--contents-->
                 <div id="mn16s" align="center">
                     <br>
+                    <br>
                     <h2>수강예정 클래스</h2>
                     <br>
                     <hr id="hrSet53">

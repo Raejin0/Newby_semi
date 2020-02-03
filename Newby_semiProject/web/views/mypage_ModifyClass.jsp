@@ -24,6 +24,7 @@
                 <!--contents-->
                 <div id="mn16s" align="center">
                     <br>
+                    <br>
                     <h2>클래스 수정</h2>
                     <br>
                     <hr id="hrSet53">

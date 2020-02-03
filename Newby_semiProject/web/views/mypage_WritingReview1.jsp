@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/semi/resources/css/LoginModal.css">
     <link rel="stylesheet" href="/semi/resources/css/main-panel.css">
     <link rel="stylesheet" href="/semi/resources/css/mypage_h&j-frame.css">
-    <link rel="stylesheet" href="/semi/resources/css/mypage_WritingReview.css">
+    <link rel="stylesheet" href="/semi/resources/css/mypage_WritingReview1.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+GothicNoto+Sans+KR&display=swap" rel="stylesheet">
     <script src="/semi/resources/jquery/jquery-3.4.1.min.js"></script>
 
@@ -44,6 +44,7 @@
 
                 <!--contents-->
                 <div id="mn16s" align="center">
+                	<br>
                     <br>
                     <h2>후기 작성</h2>
                     <br>

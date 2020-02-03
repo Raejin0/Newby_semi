@@ -43,6 +43,7 @@
 
                 <!--contents-->
                 <div id="mn16s" align="center">
+                	<br>
                     <br>
                     <h2>결제 내역</h2>
                     <br>

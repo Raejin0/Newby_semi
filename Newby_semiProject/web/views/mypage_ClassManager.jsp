@@ -44,6 +44,7 @@
                 <!--contents-->
                 <div id="mn16s" align="center">
                     <br>
+                    <br>
                     <h2>클래스 관리</h2>
                     <br>
                     <hr id="hrSet53">

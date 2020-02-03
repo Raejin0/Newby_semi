@@ -20,7 +20,7 @@
 </head>
 
 <body></body>
-    <div id="Allpanel">
+    <div id="Allpanel" align="center">
     
         <%@ include file="./common/header.jsp" %>
         
@@ -48,6 +48,7 @@
 
                 <!--contents-->
                 <div id="mn16s" align="center">
+                    <br>
                     <br>
                     <h2>클래스 등록</h2>
                     <br>
