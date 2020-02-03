@@ -21,8 +21,8 @@
 </head>
 
 <body></body>
-    <div id="Allpanel">
-        <center>
+    <div id="Allpanel" align="center">
+
             <!-- 작업하는 컨텐츠 -->
             <div id="newby-body-panel" class="contents-div123" align="left">
                 <!--contents-->
@@ -203,7 +203,6 @@
                     </div>
                 </div> 
             </div>
-        </center>
     </div>
 </body>
 </html>
